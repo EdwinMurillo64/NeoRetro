@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+
+ @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+body{
+	font-family: 'Orbitron', sans-serif;
+	background-color: #000D23;
+	color: #FFFFFF;
+	background-image: url("../img/bordesgen.svg");
+	background-size: cover;
+}
+
+@media (max-width: 480px){
+	body{
+		background-image: none;
+	}
+}
+
+@media (max-width: 767px) {
+
+          body{
+        background-image: none;
+    }
+
+}
+
+header .navbar-light{
+	background-color:#04318C!important;
+	font-size:16px;
+	padding: 20px;
+	text-align: center;
+}
+
+.sticky-wrapper {
+  position: absolute;
+  z-index: 999999;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.sticky-wrapper.is-sticky .container {
+  background: rgba(0, 0, 0, 0.65);
+  
+  padding: 15px 30px;
+}
+.navbar {
+  background: transparent;
+  z-index:999999 ;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nav-link{
+	margin-left: 0px;
+}
+
+.collapse{
+	margin-left: 500px;
+}
+body .neo-title{
+	font-size: 34px;
+	margin-left: 40px;
+}
+.ptext{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin-left: 40px;
+	font-size: 20px;
+	margin-top: 40px;
+	color:#FFFFFF;
+}
+
+#info{
+	margin-bottom: 80px;
+	margin-top: 50px;
+}
+
+#call{
+	margin-bottom: 80px;
+	margin-top: 150px;
+}
+
+#call .neo-title{
+	margin-left: 40px;
+}
+
+
+
+
+i.lab{
+	font-size: 50px;
+	padding-left: 35px;
+	padding-top: 50px;
+	color: #06C7F2;
+	
+}
+
+#form{
+	color: #000000;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#form input{
+	background-color: #8AB2C8;
+	border-color: #A442BC;
+	border-radius: 0px;
+}
+
+#subscribe{
+	background-size: cover;
+	padding: 10px 30px;
+	margin-bottom: 80px;
+	
+
+}
+
+#subscribe h3{
+	margin-top: 30px;
+}
+
+#subscribe .optionalParent .btn-primary{
+	background-color: #00AEDE;
+}
+
+#hero{
+    margin-top: 100px;
+	background-size: cover;
+	padding: 10px 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+#hero .card{
+	background-image:url("../img/arcade.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top:50px;
+	border:80px,solid;
+	border-color: #94509F;
+	border-radius: none;
+	border-width: 6px;
+}
+
+#hero img{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#hero h3{
+	padding-top: 50px;
+}
+#hero p{
+	text-emphasis-position: left;
+	margin-bottom: 50px;
+}
+#info{
+
+	background-size: cover;
+	padding: 40px 30px;
+}
+
+#mc_embed_signup p{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 15px;
+	margin-bottom: 10px;
+	font-weight:500;
+	color: #FFFFFF;
+}
+
+#subscribe .optionalParent .btn-primary{
+	border-radius: 0px;
+	Border-color:#00000;
+	
+	
+}
+#subscribe .optionalParent .btn-primary:hover{
+	background-color: #A442BC;
+}
+
+#mc_embed_signup .button {
+    padding-bottom: 20px!important;
+    padding-top: 13px!important;
+    height:55px!important;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 300px;
+
+}
+.neo-title{
+	color:#FFFFFF;
+	font-family: 'Orbitron', sans-serif;
+}
+.indicates-required p{
+	color: #FFFFFF;
+	font-family: none!important;
+}
+.mc-field-group{
+	margin-bottom: 20px;
+}
+#subscribe .mapa{
+	border:40px;
+	border-color:#94509F;
+}
+
+footer{
+	text-align: center;
+	padding: 60px;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35), #000D23);
+}
